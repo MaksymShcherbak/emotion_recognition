@@ -1,16 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+client/node_modules
+client/build
 
-# dependencies
-emotion-recognition-client/node_modules
-emotion-recognition-client/build
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/.env
 
-emotion-recognition-client/.DS_Store
-emotion-recognition-client/.env.local
-emotion-recognition-client/.env.development.local
-emotion-recognition-client/.env.test.local
-emotion-recognition-client/.env.production.local
-emotion-recognition-client/.env
-
-emotion-recognition-client/npm-debug.log*
-emotion-recognition-client/yarn-debug.log*
-emotion-recognition-client/yarn-error.log*
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
